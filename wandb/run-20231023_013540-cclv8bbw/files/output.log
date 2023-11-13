@@ -1,0 +1,22 @@
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="_dummy_special_var"  />
+<var name="config" type="Config" qualifier="wandb.sdk.wandb_config" value="%7B%27TRAIN_BATCH_SIZE%27%3A 2%2C %27VALID_BATCH_SIZE%27%3A 2%2C %27TRAIN_EPOCHS%27%3A 2%2C %27LEARNING_RATE%27%3A 0.0001%2C %27SEED%27%3A 42%2C %27MAX_LEN%27%3A 512%2C %27SUMMARY_LEN%27%3A 150%7D" isContainer="True" />
+<var name="device" type="str" qualifier="builtins" value="cpu" />
+<var name="new_repo" type="str" qualifier="builtins" value="%3Cprovide-your-new-repository-name-here&gt;" />
+<var name="repo_name" type="str" qualifier="builtins" value="EducativeCS2023/bart-base-summarization" />
+</xml>
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+    _|    _|  _|    _|    _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|_|_|_|    _|_|      _|_|_|  _|_|_|_|
+    _|    _|  _|    _|  _|        _|          _|    _|_|    _|  _|            _|        _|    _|  _|        _|
+    _|_|_|_|  _|    _|  _|  _|_|  _|  _|_|    _|    _|  _|  _|  _|  _|_|      _|_|_|    _|_|_|_|  _|        _|_|_|
+    _|    _|  _|    _|  _|    _|  _|    _|    _|    _|    _|_|  _|    _|      _|        _|    _|  _|        _|
+    _|    _|    _|_|      _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|        _|    _|    _|_|_|  _|_|_|_|
+    A token is already saved on your machine. Run `huggingface-cli whoami` to get more information or `huggingface-cli logout` if you want to log out.
+    Setting a new token will erase the existing one.
+    To login, `huggingface_hub` requires a token generated from https://huggingface.co/settings/tokens .
+Token is valid (permission: read).
+Your token has been saved in your configured git credential helpers (osxkeychain).
+Your token has been saved to /Users/nigoo/.cache/huggingface/token
+Login successful
+cpu

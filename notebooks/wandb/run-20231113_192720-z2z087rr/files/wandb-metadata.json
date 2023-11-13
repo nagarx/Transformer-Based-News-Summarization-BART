@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.1.1-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-11-13T18:27:21.309693",
+    "startedAt": "2023-11-13T18:27:20.548930",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Text_Summarization_using_Transformers/notebooks/BART_transformer_summarization.ipynb",
+    "codePathLocal": null,
+    "root": "/Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_using_Transformers",
+    "git": {
+        "remote": "https://github.com/nagarx/Text_Summarization_using_Transformers.git",
+        "commit": "de57a3993a59f90dd707e94f3ffbde9f1b64419a"
+    },
+    "email": "nagarr@icloud.com",
+    "host": "fermi_framework",
+    "username": "ahmedelnagar",
+    "executable": "/Users/nigoo/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 292.6031913757324
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

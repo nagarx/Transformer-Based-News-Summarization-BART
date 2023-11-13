@@ -1,0 +1,251 @@
+2023-11-13 17:46:34,946 INFO    StreamThr :41816 [internal.py:wandb_internal():86] W&B internal server running at pid: 41816, started at: 2023-11-13 17:46:34.946081
+2023-11-13 17:46:34,947 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: status
+2023-11-13 17:46:34,954 INFO    WriterThread:41816 [datastore.py:open_for_write():85] open: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/run-iqon1dkt.wandb
+2023-11-13 17:46:34,954 DEBUG   SenderThread:41816 [sender.py:send():380] send: header
+2023-11-13 17:46:34,965 DEBUG   SenderThread:41816 [sender.py:send():380] send: run
+2023-11-13 17:46:35,379 INFO    SenderThread:41816 [dir_watcher.py:__init__():211] watching files in: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files
+2023-11-13 17:46:35,380 INFO    SenderThread:41816 [sender.py:_start_run_threads():1122] run started: iqon1dkt with start time 1699893994.946469
+2023-11-13 17:46:35,389 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: check_version
+2023-11-13 17:46:35,390 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: check_version
+2023-11-13 17:46:35,516 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: run_start
+2023-11-13 17:46:35,525 DEBUG   HandlerThread:41816 [system_info.py:__init__():32] System info init
+2023-11-13 17:46:35,525 DEBUG   HandlerThread:41816 [system_info.py:__init__():47] System info init done
+2023-11-13 17:46:35,525 INFO    HandlerThread:41816 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 17:46:35,525 INFO    SystemMonitor:41816 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 17:46:35,525 INFO    HandlerThread:41816 [system_monitor.py:probe():214] Collecting system info
+2023-11-13 17:46:35,526 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 17:46:35,533 DEBUG   HandlerThread:41816 [system_info.py:probe():196] Probing system
+2023-11-13 17:46:35,538 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 17:46:35,561 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started gpuapple monitoring
+2023-11-13 17:46:35,564 DEBUG   HandlerThread:41816 [gitlib.py:_init_repo():53] git repository is invalid
+2023-11-13 17:46:35,565 DEBUG   HandlerThread:41816 [system_info.py:probe():244] Probing system done
+2023-11-13 17:46:35,565 DEBUG   HandlerThread:41816 [system_monitor.py:probe():223] {'os': 'macOS-14.1.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2023-11-13T16:46:35.533375', 'startedAt': '2023-11-13T16:46:34.940327', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Text_Summarization_with_Transformers/BART_transformer_summarization_enhanced_2.ipynb', 'codePathLocal': None, 'root': '/Users/nigoo/Documents/Code/My_GitHub_Repositories', 'host': 'fermi_framework', 'username': 'ahmedelnagar', 'executable': '/Users/nigoo/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 460.4317207336426, 'used': 291.48368072509766}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-11-13 17:46:35,565 INFO    HandlerThread:41816 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-13 17:46:35,565 INFO    HandlerThread:41816 [system_monitor.py:probe():227] Publishing system info
+2023-11-13 17:46:35,565 DEBUG   HandlerThread:41816 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-13 17:46:35,565 DEBUG   HandlerThread:41816 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-13 17:46:35,565 DEBUG   HandlerThread:41816 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-13 17:46:35,596 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 17:46:35,611 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started network monitoring
+2023-11-13 17:46:36,381 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/conda-environment.yaml
+2023-11-13 17:46:36,382 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/requirements.txt
+2023-11-13 17:46:38,996 DEBUG   HandlerThread:41816 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-13 17:46:38,997 INFO    HandlerThread:41816 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-13 17:46:39,000 DEBUG   SenderThread:41816 [sender.py:send():380] send: files
+2023-11-13 17:46:39,000 INFO    SenderThread:41816 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-13 17:46:39,009 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 17:46:39,009 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 17:46:39,009 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 17:46:39,012 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 17:46:39,012 INFO    HandlerThread:41816 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 17:46:39,012 INFO    HandlerThread:41816 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 17:46:39,012 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 17:46:39,012 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 17:46:39,012 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 17:46:39,012 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 17:46:39,012 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 17:46:39,237 DEBUG   SenderThread:41816 [sender.py:send():380] send: telemetry
+2023-11-13 17:46:39,237 DEBUG   SenderThread:41816 [sender.py:send():380] send: telemetry
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,238 DEBUG   SenderThread:41816 [sender.py:send():380] send: config
+2023-11-13 17:46:39,394 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/conda-environment.yaml
+2023-11-13 17:46:39,394 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/wandb-metadata.json
+2023-11-13 17:46:39,601 INFO    wandb-upload_0:41816 [upload_job.py:push():131] Uploaded file /var/folders/7v/7g8_sskn48n6dzflf0zmvct00000gn/T/tmpgqlbg08hwandb/hi1gwxpd-wandb-metadata.json
+2023-11-13 17:46:39,852 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-11-13 17:46:39,852 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined memory monitor
+2023-11-13 17:46:39,852 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined network monitor
+2023-11-13 17:46:39,852 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: resume
+2023-11-13 17:46:39,852 INFO    HandlerThread:41816 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-13 17:46:39,852 INFO    HandlerThread:41816 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 17:46:39,852 INFO    SystemMonitor:41816 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 17:46:39,853 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 17:46:39,853 INFO    HandlerThread:41816 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 17:46:39,853 INFO    HandlerThread:41816 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 17:46:39,853 DEBUG   SenderThread:41816 [sender.py:send():380] send: telemetry
+2023-11-13 17:46:39,853 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 17:46:39,853 DEBUG   SenderThread:41816 [sender.py:send():380] send: stats
+2023-11-13 17:46:39,853 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 17:46:39,853 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 17:46:39,853 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 17:46:39,854 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 17:46:39,854 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: resume
+2023-11-13 17:46:39,854 INFO    HandlerThread:41816 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-13 17:46:39,854 INFO    HandlerThread:41816 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 17:46:39,854 INFO    SystemMonitor:41816 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 17:46:39,854 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 17:46:39,854 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 17:46:39,855 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 17:46:39,855 INFO    HandlerThread:41816 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 17:46:39,858 INFO    HandlerThread:41816 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 17:46:39,858 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 17:46:39,858 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 17:46:39,858 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started gpuapple monitoring
+2023-11-13 17:46:39,858 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 17:46:39,858 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 17:46:39,858 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 17:46:40,399 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log
+2023-11-13 17:46:40,828 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-11-13 17:46:40,828 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: resume
+2023-11-13 17:46:40,828 INFO    HandlerThread:41816 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-13 17:46:40,828 INFO    HandlerThread:41816 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 17:46:40,828 INFO    SystemMonitor:41816 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 17:46:40,829 DEBUG   SenderThread:41816 [sender.py:send():380] send: stats
+2023-11-13 17:46:40,829 DEBUG   SenderThread:41816 [sender.py:send():380] send: stats
+2023-11-13 17:46:40,829 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 17:46:40,829 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:46:40,830 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 17:46:40,832 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started gpuapple monitoring
+2023-11-13 17:46:40,833 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 17:46:40,833 INFO    SystemMonitor:41816 [interfaces.py:start():190] Started network monitoring
+2023-11-13 17:46:42,060 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 17:46:42,060 INFO    HandlerThread:41816 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 17:46:42,061 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 17:46:42,061 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 17:46:42,061 DEBUG   SystemMonitor:41816 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined memory monitor
+2023-11-13 17:46:42,061 INFO    HandlerThread:41816 [interfaces.py:finish():202] Joined network monitor
+2023-11-13 17:46:42,061 DEBUG   SenderThread:41816 [sender.py:send():380] send: stats
+2023-11-13 17:46:42,403 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log
+2023-11-13 17:46:44,410 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log
+2023-11-13 17:46:46,194 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:46:46,313 DEBUG   SenderThread:41816 [sender.py:send():380] send: exit
+2023-11-13 17:46:46,313 INFO    SenderThread:41816 [sender.py:send_exit():585] handling exit code: 0
+2023-11-13 17:46:46,313 INFO    SenderThread:41816 [sender.py:send_exit():587] handling runtime: 6
+2023-11-13 17:46:46,313 INFO    SenderThread:41816 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_exit():593] send defer
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-13 17:46:46,314 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 1
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-13 17:46:46,314 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 2
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-13 17:46:46,314 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 3
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-13 17:46:46,314 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 4
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-13 17:46:46,314 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-13 17:46:46,314 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 5
+2023-11-13 17:46:46,314 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,314 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-13 17:46:46,315 DEBUG   SenderThread:41816 [sender.py:send():380] send: summary
+2023-11-13 17:46:46,315 INFO    SenderThread:41816 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-13 17:46:46,315 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,315 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-13 17:46:46,315 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 6
+2023-11-13 17:46:46,315 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,315 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-13 17:46:46,315 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,315 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-13 17:46:46,316 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:46:46,417 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/wandb-summary.json
+2023-11-13 17:46:46,517 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 7
+2023-11-13 17:46:46,517 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:46,517 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-13 17:46:46,517 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:46,517 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-13 17:46:47,319 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 17:46:47,422 INFO    Thread-12 :41816 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/config.yaml
+2023-11-13 17:46:47,886 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 8
+2023-11-13 17:46:47,886 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: poll_exit
+2023-11-13 17:46:47,887 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:47,887 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-13 17:46:47,888 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:47,888 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-13 17:46:47,888 INFO    SenderThread:41816 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-13 17:46:47,889 INFO    SenderThread:41816 [job_builder.py:_get_source_type():404] no source found
+2023-11-13 17:46:47,892 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 9
+2023-11-13 17:46:47,893 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:47,893 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-13 17:46:47,893 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:47,893 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-13 17:46:47,893 INFO    SenderThread:41816 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-13 17:46:48,327 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 17:46:48,428 INFO    SenderThread:41816 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log
+2023-11-13 17:46:48,429 INFO    SenderThread:41816 [dir_watcher.py:finish():388] scan: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files
+2023-11-13 17:46:48,429 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/requirements.txt requirements.txt
+2023-11-13 17:46:48,429 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log output.log
+2023-11-13 17:46:48,431 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/config.yaml config.yaml
+2023-11-13 17:46:48,433 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/wandb-summary.json wandb-summary.json
+2023-11-13 17:46:48,434 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/conda-environment.yaml conda-environment.yaml
+2023-11-13 17:46:48,438 INFO    SenderThread:41816 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/wandb-metadata.json wandb-metadata.json
+2023-11-13 17:46:48,439 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 10
+2023-11-13 17:46:48,439 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: poll_exit
+2023-11-13 17:46:48,439 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:48,439 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-13 17:46:48,441 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:48,441 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-13 17:46:48,441 INFO    SenderThread:41816 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-13 17:46:48,799 INFO    wandb-upload_1:41816 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/output.log
+2023-11-13 17:46:48,981 INFO    wandb-upload_2:41816 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/config.yaml
+2023-11-13 17:46:48,984 INFO    wandb-upload_0:41816 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/requirements.txt
+2023-11-13 17:46:48,989 INFO    wandb-upload_3:41816 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/wandb-summary.json
+2023-11-13 17:46:49,020 INFO    wandb-upload_4:41816 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/files/conda-environment.yaml
+2023-11-13 17:46:49,225 INFO    Thread-11 (_thread_body):41816 [sender.py:transition_state():613] send defer: 11
+2023-11-13 17:46:49,226 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:49,226 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-13 17:46:49,226 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:49,226 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-13 17:46:49,226 INFO    SenderThread:41816 [file_pusher.py:join():181] waiting for file pusher
+2023-11-13 17:46:49,226 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 12
+2023-11-13 17:46:49,226 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:49,226 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-13 17:46:49,226 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:49,226 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-13 17:46:49,226 INFO    SenderThread:41816 [file_stream.py:finish():595] file stream finish called
+2023-11-13 17:46:49,331 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 17:46:49,386 INFO    SenderThread:41816 [file_stream.py:finish():599] file stream finish is done
+2023-11-13 17:46:49,386 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 13
+2023-11-13 17:46:49,386 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: poll_exit
+2023-11-13 17:46:49,387 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:49,387 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-13 17:46:49,387 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:49,387 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-13 17:46:49,387 INFO    SenderThread:41816 [sender.py:transition_state():613] send defer: 14
+2023-11-13 17:46:49,387 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 17:46:49,387 INFO    HandlerThread:41816 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-13 17:46:49,387 DEBUG   SenderThread:41816 [sender.py:send():380] send: final
+2023-11-13 17:46:49,388 DEBUG   SenderThread:41816 [sender.py:send():380] send: footer
+2023-11-13 17:46:49,388 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: defer
+2023-11-13 17:46:49,388 INFO    SenderThread:41816 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-13 17:46:49,388 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 17:46:49,388 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: poll_exit
+2023-11-13 17:46:49,389 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 17:46:49,389 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: poll_exit
+2023-11-13 17:46:49,389 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: server_info
+2023-11-13 17:46:49,389 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-13 17:46:49,390 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-13 17:46:49,390 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: server_info
+2023-11-13 17:46:49,390 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 17:46:49,391 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: job_info
+2023-11-13 17:46:49,534 DEBUG   SenderThread:41816 [sender.py:send_request():407] send_request: job_info
+2023-11-13 17:46:49,535 INFO    MainThread:41816 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-13 17:46:49,535 INFO    MainThread:41816 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-13 17:46:49,535 INFO    MainThread:41816 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-11-13 17:46:49,537 DEBUG   HandlerThread:41816 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-13 17:46:49,537 INFO    HandlerThread:41816 [handler.py:finish():866] shutting down handler
+2023-11-13 17:46:50,400 INFO    WriterThread:41816 [datastore.py:close():294] close: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_174634-iqon1dkt/run-iqon1dkt.wandb
+2023-11-13 17:46:50,540 INFO    SenderThread:41816 [sender.py:finish():1534] shutting down sender
+2023-11-13 17:46:50,540 INFO    SenderThread:41816 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-13 17:46:50,540 INFO    SenderThread:41816 [file_pusher.py:join():181] waiting for file pusher

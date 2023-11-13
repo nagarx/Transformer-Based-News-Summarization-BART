@@ -1,0 +1,248 @@
+2023-10-23 15:52:43,084 INFO    StreamThr :29742 [internal.py:wandb_internal():86] W&B internal server running at pid: 29742, started at: 2023-10-23 15:52:43.084089
+2023-10-23 15:52:43,085 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status
+2023-10-23 15:52:43,093 INFO    WriterThread:29742 [datastore.py:open_for_write():85] open: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/run-gqx8q8x3.wandb
+2023-10-23 15:52:43,094 DEBUG   SenderThread:29742 [sender.py:send():379] send: header
+2023-10-23 15:52:43,111 DEBUG   SenderThread:29742 [sender.py:send():379] send: run
+2023-10-23 15:52:43,672 INFO    SenderThread:29742 [dir_watcher.py:__init__():211] watching files in: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files
+2023-10-23 15:52:43,672 INFO    SenderThread:29742 [sender.py:_start_run_threads():1121] run started: gqx8q8x3 with start time 1698069163.084671
+2023-10-23 15:52:43,683 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: check_version
+2023-10-23 15:52:43,683 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: check_version
+2023-10-23 15:52:44,371 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: run_start
+2023-10-23 15:52:44,378 DEBUG   HandlerThread:29742 [system_info.py:__init__():32] System info init
+2023-10-23 15:52:44,378 DEBUG   HandlerThread:29742 [system_info.py:__init__():47] System info init done
+2023-10-23 15:52:44,378 INFO    HandlerThread:29742 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 15:52:44,378 INFO    SystemMonitor:29742 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 15:52:44,379 INFO    HandlerThread:29742 [system_monitor.py:probe():201] Collecting system info
+2023-10-23 15:52:44,379 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 15:52:44,379 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 15:52:44,383 DEBUG   HandlerThread:29742 [system_info.py:probe():196] Probing system
+2023-10-23 15:52:44,383 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started gpuapple monitoring
+2023-10-23 15:52:44,385 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 15:52:44,385 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started network monitoring
+2023-10-23 15:52:44,389 DEBUG   HandlerThread:29742 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-23 15:52:44,389 DEBUG   HandlerThread:29742 [system_info.py:probe():244] Probing system done
+2023-10-23 15:52:44,389 DEBUG   HandlerThread:29742 [system_monitor.py:probe():210] {'os': 'macOS-14.0-arm64-arm-64bit', 'python': '3.11.1', 'heartbeatAt': '2023-10-23T13:52:44.383620', 'startedAt': '2023-10-23T13:52:43.079530', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Text_Summarization_with_Transformers/BART_transformer_summarization.ipynb', 'codePathLocal': None, 'root': '/Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative', 'host': 'fermi_framework', 'username': 'ahmedelnagar', 'executable': '/usr/local/bin/python3.11', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 460.4317207336426, 'used': 9.14349365234375}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-10-23 15:52:44,389 INFO    HandlerThread:29742 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-23 15:52:44,389 INFO    HandlerThread:29742 [system_monitor.py:probe():214] Publishing system info
+2023-10-23 15:52:44,389 DEBUG   HandlerThread:29742 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 15:52:44,390 DEBUG   HandlerThread:29742 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 15:52:44,391 INFO    HandlerThread:29742 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-23 15:52:44,397 DEBUG   SenderThread:29742 [sender.py:send():379] send: files
+2023-10-23 15:52:44,397 INFO    SenderThread:29742 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-10-23 15:52:44,405 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 15:52:44,405 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: stop_status
+2023-10-23 15:52:44,435 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 15:52:44,435 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: pause
+2023-10-23 15:52:44,436 INFO    HandlerThread:29742 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-23 15:52:44,436 INFO    HandlerThread:29742 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 15:52:44,437 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 15:52:44,437 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 15:52:44,437 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 15:52:44,437 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 15:52:44,437 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 15:52:44,676 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/wandb-metadata.json
+2023-10-23 15:52:44,676 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/requirements.txt
+2023-10-23 15:52:44,886 DEBUG   SenderThread:29742 [sender.py:send():379] send: telemetry
+2023-10-23 15:52:44,886 DEBUG   SenderThread:29742 [sender.py:send():379] send: telemetry
+2023-10-23 15:52:44,886 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:44,887 DEBUG   SenderThread:29742 [sender.py:send():379] send: config
+2023-10-23 15:52:45,397 INFO    wandb-upload_0:29742 [upload_job.py:push():131] Uploaded file /var/folders/7v/7g8_sskn48n6dzflf0zmvct00000gn/T/tmpeupcgo2hwandb/yk4cjy9s-wandb-metadata.json
+2023-10-23 15:52:45,833 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-10-23 15:52:45,833 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 15:52:45,833 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 15:52:45,833 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: resume
+2023-10-23 15:52:45,833 INFO    HandlerThread:29742 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-23 15:52:45,833 INFO    HandlerThread:29742 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 15:52:45,833 INFO    SystemMonitor:29742 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 15:52:45,833 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: pause
+2023-10-23 15:52:45,834 INFO    HandlerThread:29742 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-23 15:52:45,834 INFO    HandlerThread:29742 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 15:52:45,834 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 15:52:45,834 DEBUG   SenderThread:29742 [sender.py:send():379] send: telemetry
+2023-10-23 15:52:45,834 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 15:52:45,834 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 15:52:45,834 DEBUG   SenderThread:29742 [sender.py:send():379] send: stats
+2023-10-23 15:52:45,834 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 15:52:45,834 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 15:52:45,835 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: resume
+2023-10-23 15:52:45,835 INFO    HandlerThread:29742 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-23 15:52:45,835 INFO    HandlerThread:29742 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 15:52:45,835 INFO    SystemMonitor:29742 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 15:52:45,835 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: pause
+2023-10-23 15:52:45,836 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 15:52:45,836 INFO    HandlerThread:29742 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-23 15:52:45,836 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 15:52:45,836 INFO    HandlerThread:29742 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 15:52:45,843 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started gpuapple monitoring
+2023-10-23 15:52:45,844 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 15:52:45,844 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 15:52:45,844 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 15:52:45,844 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 15:52:45,845 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 15:52:46,682 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/output.log
+2023-10-23 15:52:47,001 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-10-23 15:52:47,002 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: resume
+2023-10-23 15:52:47,002 INFO    HandlerThread:29742 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-23 15:52:47,002 INFO    HandlerThread:29742 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 15:52:47,002 INFO    SystemMonitor:29742 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 15:52:47,002 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: pause
+2023-10-23 15:52:47,002 INFO    HandlerThread:29742 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-23 15:52:47,002 INFO    HandlerThread:29742 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 15:52:47,002 INFO    SystemMonitor:29742 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 15:52:47,002 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 15:52:47,002 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 15:52:47,002 INFO    HandlerThread:29742 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 15:52:47,002 DEBUG   SystemMonitor:29742 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 15:52:47,003 DEBUG   SenderThread:29742 [sender.py:send():379] send: stats
+2023-10-23 15:52:47,003 DEBUG   SenderThread:29742 [sender.py:send():379] send: stats
+2023-10-23 15:52:47,003 DEBUG   SenderThread:29742 [sender.py:send():379] send: stats
+2023-10-23 15:52:48,691 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/output.log
+2023-10-23 15:52:49,014 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:52:54,041 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:52:59,060 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:52:59,417 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 15:52:59,418 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 15:52:59,418 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: stop_status
+2023-10-23 15:53:04,676 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:53:09,692 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:53:14,422 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 15:53:14,423 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 15:53:14,423 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: stop_status
+2023-10-23 15:53:14,937 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:53:15,808 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/config.yaml
+2023-10-23 15:53:16,173 DEBUG   SenderThread:29742 [sender.py:send():379] send: exit
+2023-10-23 15:53:16,173 INFO    SenderThread:29742 [sender.py:send_exit():584] handling exit code: 0
+2023-10-23 15:53:16,173 INFO    SenderThread:29742 [sender.py:send_exit():586] handling runtime: 2
+2023-10-23 15:53:16,173 INFO    SenderThread:29742 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-23 15:53:16,173 INFO    SenderThread:29742 [sender.py:send_exit():592] send defer
+2023-10-23 15:53:16,174 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,174 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-23 15:53:16,174 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 1
+2023-10-23 15:53:16,174 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,174 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-23 15:53:16,174 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 2
+2023-10-23 15:53:16,174 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,174 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-23 15:53:16,174 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 3
+2023-10-23 15:53:16,174 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,174 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-23 15:53:16,174 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-10-23 15:53:16,174 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 4
+2023-10-23 15:53:16,175 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,175 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-23 15:53:16,175 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 5
+2023-10-23 15:53:16,175 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,175 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-23 15:53:16,175 DEBUG   SenderThread:29742 [sender.py:send():379] send: summary
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-23 15:53:16,175 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 6
+2023-10-23 15:53:16,175 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,175 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-23 15:53:16,175 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 7
+2023-10-23 15:53:16,175 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 15:53:16,175 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:16,175 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-23 15:53:16,175 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:16,175 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-10-23 15:53:16,817 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/wandb-summary.json
+2023-10-23 15:53:17,174 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:17,929 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 8
+2023-10-23 15:53:17,930 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:17,930 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:17,930 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-23 15:53:17,930 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:17,930 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-10-23 15:53:17,930 INFO    SenderThread:29742 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-23 15:53:17,932 INFO    SenderThread:29742 [job_builder.py:_get_source_type():404] no source found
+2023-10-23 15:53:17,932 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 9
+2023-10-23 15:53:17,932 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:17,932 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-23 15:53:17,932 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:17,932 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-10-23 15:53:17,932 INFO    SenderThread:29742 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-23 15:53:18,179 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:18,830 INFO    Thread-12 :29742 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/output.log
+2023-10-23 15:53:18,830 INFO    SenderThread:29742 [dir_watcher.py:finish():388] scan: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files
+2023-10-23 15:53:18,830 INFO    SenderThread:29742 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/requirements.txt requirements.txt
+2023-10-23 15:53:18,831 INFO    SenderThread:29742 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/output.log output.log
+2023-10-23 15:53:18,831 INFO    SenderThread:29742 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/config.yaml config.yaml
+2023-10-23 15:53:18,832 INFO    SenderThread:29742 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/wandb-summary.json wandb-summary.json
+2023-10-23 15:53:18,832 INFO    SenderThread:29742 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/wandb-metadata.json wandb-metadata.json
+2023-10-23 15:53:18,833 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 10
+2023-10-23 15:53:18,833 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:18,833 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:18,834 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-23 15:53:18,835 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:18,835 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-10-23 15:53:18,835 INFO    SenderThread:29742 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-23 15:53:19,181 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:19,181 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:19,261 INFO    wandb-upload_3:29742 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/wandb-summary.json
+2023-10-23 15:53:19,334 INFO    wandb-upload_1:29742 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/output.log
+2023-10-23 15:53:19,523 INFO    wandb-upload_2:29742 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/config.yaml
+2023-10-23 15:53:20,188 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:20,189 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:20,407 INFO    wandb-upload_0:29742 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/files/requirements.txt
+2023-10-23 15:53:20,610 INFO    Thread-11 (_thread_body):29742 [sender.py:transition_state():612] send defer: 11
+2023-10-23 15:53:20,611 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:20,611 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-23 15:53:20,612 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:20,612 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-10-23 15:53:20,612 INFO    SenderThread:29742 [file_pusher.py:join():181] waiting for file pusher
+2023-10-23 15:53:20,612 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 12
+2023-10-23 15:53:20,613 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:20,613 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-23 15:53:20,613 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:20,613 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-10-23 15:53:20,614 INFO    SenderThread:29742 [file_stream.py:finish():594] file stream finish called
+2023-10-23 15:53:20,812 INFO    SenderThread:29742 [file_stream.py:finish():598] file stream finish is done
+2023-10-23 15:53:20,812 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 13
+2023-10-23 15:53:20,813 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:20,813 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-23 15:53:20,814 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:20,814 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-10-23 15:53:20,814 INFO    SenderThread:29742 [sender.py:transition_state():612] send defer: 14
+2023-10-23 15:53:20,814 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 15:53:20,814 INFO    HandlerThread:29742 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-23 15:53:20,815 DEBUG   SenderThread:29742 [sender.py:send():379] send: final
+2023-10-23 15:53:20,815 DEBUG   SenderThread:29742 [sender.py:send():379] send: footer
+2023-10-23 15:53:20,815 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: defer
+2023-10-23 15:53:20,815 INFO    SenderThread:29742 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-10-23 15:53:20,815 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:20,816 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:20,816 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 15:53:20,816 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: server_info
+2023-10-23 15:53:20,816 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-23 15:53:20,817 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: poll_exit
+2023-10-23 15:53:20,817 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-23 15:53:20,817 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: server_info
+2023-10-23 15:53:20,817 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 15:53:20,819 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: job_info
+2023-10-23 15:53:20,975 DEBUG   SenderThread:29742 [sender.py:send_request():406] send_request: job_info
+2023-10-23 15:53:20,976 INFO    MainThread:29742 [wandb_run.py:_footer_history_summary_info():3557] rendering history
+2023-10-23 15:53:20,977 INFO    MainThread:29742 [wandb_run.py:_footer_history_summary_info():3589] rendering summary
+2023-10-23 15:53:20,977 INFO    MainThread:29742 [wandb_run.py:_footer_sync_info():3516] logging synced files
+2023-10-23 15:53:20,978 DEBUG   HandlerThread:29742 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-23 15:53:20,978 INFO    HandlerThread:29742 [handler.py:finish():840] shutting down handler
+2023-10-23 15:53:21,824 INFO    WriterThread:29742 [datastore.py:close():294] close: /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_155243-gqx8q8x3/run-gqx8q8x3.wandb
+2023-10-23 15:53:21,977 INFO    SenderThread:29742 [sender.py:finish():1531] shutting down sender
+2023-10-23 15:53:21,977 INFO    SenderThread:29742 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-23 15:53:21,977 INFO    SenderThread:29742 [file_pusher.py:join():181] waiting for file pusher

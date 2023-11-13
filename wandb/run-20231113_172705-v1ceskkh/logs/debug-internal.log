@@ -1,0 +1,24 @@
+2023-11-13 17:27:05,855 INFO    StreamThr :41517 [internal.py:wandb_internal():86] W&B internal server running at pid: 41517, started at: 2023-11-13 17:27:05.853302
+2023-11-13 17:27:05,873 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status
+2023-11-13 17:27:05,892 INFO    WriterThread:41517 [datastore.py:open_for_write():85] open: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/run-v1ceskkh.wandb
+2023-11-13 17:27:05,893 DEBUG   SenderThread:41517 [sender.py:send():380] send: header
+2023-11-13 17:27:05,903 DEBUG   SenderThread:41517 [sender.py:send():380] send: run
+2023-11-13 17:27:06,352 INFO    SenderThread:41517 [dir_watcher.py:__init__():211] watching files in: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/files
+2023-11-13 17:27:06,352 INFO    SenderThread:41517 [sender.py:_start_run_threads():1122] run started: v1ceskkh with start time 1699892825.851343
+2023-11-13 17:27:11,371 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:27:16,389 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:27:21,414 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:27:26,440 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:27:31,451 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 17:27:33,947 DEBUG   HandlerThread:41517 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-13 17:27:33,948 INFO    HandlerThread:41517 [handler.py:finish():866] shutting down handler
+2023-11-13 17:27:34,464 INFO    SenderThread:41517 [sender.py:finish():1534] shutting down sender
+2023-11-13 17:27:34,464 INFO    SenderThread:41517 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-13 17:27:34,466 INFO    WriterThread:41517 [datastore.py:close():294] close: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/run-v1ceskkh.wandb
+2023-11-13 17:27:35,471 INFO    SenderThread:41517 [dir_watcher.py:finish():388] scan: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/files
+2023-11-13 17:27:35,472 INFO    SenderThread:41517 [dir_watcher.py:finish():402] scan save: /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/files/config.yaml config.yaml
+2023-11-13 17:27:35,473 INFO    SenderThread:41517 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-13 17:27:35,473 INFO    SenderThread:41517 [file_pusher.py:join():181] waiting for file pusher
+2023-11-13 17:27:36,080 INFO    wandb-upload_0:41517 [upload_job.py:push():131] Uploaded file /Users/nigoo/Documents/Code/My_GitHub_Repositories/Text_Summarization_with_Transformers/wandb/run-20231113_172705-v1ceskkh/files/config.yaml
+2023-11-13 17:27:36,479 INFO    SenderThread:41517 [file_stream.py:finish():595] file stream finish called
+2023-11-13 17:27:36,852 INFO    SenderThread:41517 [file_stream.py:finish():599] file stream finish is done

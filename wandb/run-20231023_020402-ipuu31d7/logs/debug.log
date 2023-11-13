@@ -1,0 +1,53 @@
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0b1
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Configure stats pid to 28374
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Loading settings from /Users/nigoo/.config/wandb/settings
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Loading settings from /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/settings
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_init.py:_log_setup():528] Logging user logs to /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_020402-ipuu31d7/logs/debug.log
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_init.py:_log_setup():529] Logging internal logs to /Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative/Text_Summarization_with_Transformers/wandb/run-20231023_020402-ipuu31d7/logs/debug-internal.log
+2023-10-23 02:04:02,758 INFO    MainThread:28374 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x29dd44310>
+2023-10-23 02:04:02,759 INFO    MainThread:28374 [wandb_init.py:init():568] calling init triggers
+2023-10-23 02:04:02,759 INFO    MainThread:28374 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {}
+2023-10-23 02:04:02,759 INFO    MainThread:28374 [wandb_init.py:init():618] starting backend
+2023-10-23 02:04:02,759 INFO    MainThread:28374 [wandb_init.py:init():622] setting up manager
+2023-10-23 02:04:02,761 INFO    MainThread:28374 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-10-23 02:04:02,763 INFO    MainThread:28374 [wandb_init.py:init():628] backend started and connected
+2023-10-23 02:04:02,777 INFO    MainThread:28374 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-23 02:04:02,777 INFO    MainThread:28374 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-23 02:04:02,777 INFO    MainThread:28374 [wandb_init.py:init():720] updated telemetry
+2023-10-23 02:04:02,788 INFO    MainThread:28374 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-23 02:04:03,378 INFO    MainThread:28374 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-23 02:04:03,865 INFO    MainThread:28374 [wandb_run.py:_on_init():2229] got version response 
+2023-10-23 02:04:03,865 INFO    MainThread:28374 [wandb_init.py:init():804] starting run threads in backend
+2023-10-23 02:04:03,907 INFO    MainThread:28374 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-23 02:04:03,907 INFO    MainThread:28374 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-23 02:04:03,907 INFO    MainThread:28374 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-23 02:04:03,907 INFO    MainThread:28374 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-23 02:04:03,908 INFO    MainThread:28374 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set TRAIN_BATCH_SIZE = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb TRAIN_BATCH_SIZE 2 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set VALID_BATCH_SIZE = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb VALID_BATCH_SIZE 2 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set TRAIN_EPOCHS = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb TRAIN_EPOCHS 2 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set LEARNING_RATE = 0.0001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb LEARNING_RATE 0.0001 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set SEED = 42 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb SEED 42 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set MAX_LEN = 512 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb MAX_LEN 512 None
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_config.py:__setitem__():151] config set SUMMARY_LEN = 150 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x29dd478d0>>
+2023-10-23 02:04:03,909 INFO    MainThread:28374 [wandb_run.py:_config_callback():1324] config_cb SUMMARY_LEN 150 None
+2023-10-23 02:04:03,911 INFO    MainThread:28374 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-23 02:04:03,911 INFO    MainThread:28374 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-23 02:04:09,918 INFO    MainThread:28374 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-23 02:04:09,997 INFO    MainThread:28374 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-23 02:04:09,998 INFO    MainThread:28374 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-23 02:04:13,604 INFO    MainThread:28374 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-23 02:04:13,606 INFO    MainThread:28374 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-23 02:04:13,607 INFO    MainThread:28374 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-23 02:04:15,857 INFO    MainThread:28374 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-23 02:04:16,334 INFO    MainThread:28374 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-23 02:04:16,334 INFO    MainThread:28374 [wandb_init.py:_pause_backend():438] pausing backend

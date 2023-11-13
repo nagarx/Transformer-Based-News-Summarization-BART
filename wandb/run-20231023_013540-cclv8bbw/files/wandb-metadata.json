@@ -1,0 +1,31 @@
+{
+    "os": "macOS-14.0-arm64-arm-64bit",
+    "python": "3.11.1",
+    "heartbeatAt": "2023-10-22T23:35:42.377234",
+    "startedAt": "2023-10-22T23:35:40.793281",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Text_Summarization_with_Transformers/BART_transformer_summarization.ipynb",
+    "codePathLocal": null,
+    "root": "/Users/nigoo/Documents/Code/My_GitHub_Projects/projects_from_educative",
+    "host": "fermi_framework",
+    "username": "ahmedelnagar",
+    "executable": "/usr/local/bin/python3.11",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.14349365234375
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
